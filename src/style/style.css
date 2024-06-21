@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --font_primaria: "Montserrat", sans-serif;
+    --cor_primaria: #254B2A;
+    --cor_segundaria: #E8F2C8;
+    --cor_fundo: #FCF6F5;
+    --cor_fundo_segundari: #FFF9F7;
+}
+
+* {
+    font-family: var(--font_primaria);
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--cor_fundo);
+}
+
+a{
+    text-decoration: none;
+}
+
+#ScrollCategoriaList,
+#ScrollCategoriaList::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+}
+
+#ScrollCategoriaLeft,
+#ScrollCategoriaRight {
+    cursor: pointer;
+}
+
+#CardCriaLista {
+    background: #96BB7C;
+}
+
+.card-mercado{
+    background-color: #FFF7E7;
+}

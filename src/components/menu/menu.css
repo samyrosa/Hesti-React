@@ -1,0 +1,17 @@
+html,
+body {
+    width: auto;
+    height: 100%;
+}
+
+a.nav-link.link-dark.active {
+    font-weight: bold;
+}
+
+a.nav-link.link-dark {
+    font-weight: normal;
+}
+
+a.nav-link.link-dark:hover {
+    color: var(--bs-gray-600) !important;
+}

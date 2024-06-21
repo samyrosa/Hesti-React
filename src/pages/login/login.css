@@ -1,0 +1,7 @@
+#card_form {
+    background-color: var(--cor_fundo_segundaria);
+}
+
+#card_span {
+    background-color: var(--cor_primaria);
+}
